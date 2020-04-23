@@ -16,8 +16,8 @@ oss:
     image-type-format:
   qiniu:
     prefix:
-      accessKey: QzJCY3TCfGJSKUNH3qkWct-kD_XTzwGx_qI2v27I
-    secretKey: J4LKKwKkEmSxPQhzgCtvSixd90mf31DUwT-H20ar
+      accessKey: 
+    secretKey: 
 
 ## 服务器性能优化
 server:
