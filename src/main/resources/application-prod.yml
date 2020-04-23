@@ -1,0 +1,8 @@
+server:
+  port: 2820
+
+## 云存储文件配置
+oss:
+  qiniu:
+    domain: q8z03js7y.bkt.clouddn.com
+    bucketName: image-dome1

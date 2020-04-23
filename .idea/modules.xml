@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/botu-fileupload.iml" filepath="$PROJECT_DIR$/.idea/botu-fileupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/botu-fileupload.main.iml" filepath="$PROJECT_DIR$/.idea/modules/botu-fileupload.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/botu-fileupload.test.iml" filepath="$PROJECT_DIR$/.idea/modules/botu-fileupload.test.iml" />
+    </modules>
+  </component>
+</project>

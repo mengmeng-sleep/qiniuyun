@@ -1,0 +1,8 @@
+server:
+  port: 2810
+
+## 云存储文件配置
+oss:
+  qiniu:
+    domain: http://appimagetest.botu.com
+    bucketName: botu-app-test

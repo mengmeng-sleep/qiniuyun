@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: prod
+  servlet:
+    multipart:
+      ## 不限制设置值为-1
+      max-file-size: 30MB
+      ## 不限制设置值为-1
+      max-request-size: 30MB
+      enabled: true
+
+## 云存储文件配置
+oss:
+  file:
+    ## 不需要限制，填写空即可 （.jpg;.png;.jpeg;）
+    image-type-format:
+  qiniu:
+    prefix:
+      accessKey: QzJCY3TCfGJSKUNH3qkWct-kD_XTzwGx_qI2v27I
+    secretKey: J4LKKwKkEmSxPQhzgCtvSixd90mf31DUwT-H20ar
+
+## 服务器性能优化
+server:
+  tomcat:
+    max-connections: 5000
+    ## 最大线程数不能更改，否则玩完了
+    max-threads: 200
+    min-spare-threads: 20
+    accept-count: 1000
+    max-http-post-size: 2097152
+  connection-timeout: 30000
+  jetty:
+    acceptors: 1000
